@@ -43,9 +43,9 @@ Soal
    B. Pseudocode
 	   SET tahun to any number
 	   
-	    IF tahun (   (tahun habis di bagi 4 AND tidak habis di bagi 100 ) 
+	    IF tahun (   ( mod 4  is 0 AND mod 100 not is 0 ) 
 					OR
-					(tahun habis di bagi 4 AND habis di bagi 100 AND habis di bagi 400)  )
+					( mod 4  is 0 AND mod 100 is 0 AND mod 400 is 0)  )
 		  DISPLAY tahun adalah tahun kabisat
 		  
 		ELSE
