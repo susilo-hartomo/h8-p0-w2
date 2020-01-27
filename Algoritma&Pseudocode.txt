@@ -1,0 +1,106 @@
+Tugas Pseudocode 
+Hari Senin 
+
+Soal 
+1. Secara matematis hukum II Newton dirumuskan sebagai berikut: ΣF = m x a
+   ΣF = resultan gaya (Newton)
+   m = massa benda (kg)
+   a = percepatan benda (m/s2)
+   
+   Berdasarkan keterangan di atas, buatlah sebuah algoritma / pseudocode untuk 
+   menghitung resultan gaya pada sebuah mobil yang memiliki massa benda 600 kg 
+   dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2!
+   
+   jawab : 
+   
+   SET m to 600kg
+       a to 2 m/s2
+	   
+   CALCULATE 
+		ΣF = m x a
+	
+   DISPLAY ΣF
+   
+2. Apa yang kamu ketahui tentang tanggal 29 Februari? 
+   Kamu pasti tahu jika suatu tahun memiliki tanggal 29 Februari berarti tahun tersebut merupakan tahun kabisat.
+
+   Dalam kalender Gregorian, tahun kabisat memiliki beberapa kriteria yaitu antara lain:
+
+   Jika tahun habis di bagi 4 dan tidak habis di bagi 100, atau
+   Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+   Buatlah algoritma & pseudocode untuk menentukan apakah suatu tahun merupakan tahun kabisat atau bukan!
+   
+   Jawab :
+   
+   A. Algoritma
+		1. Tentukan tahun yang akan di tentukan tahun kabisat atau bukan tahun kabisat
+		2. Hitung apakah tahun habis di bagi 4 dan tidak habis di bagi 100
+		3. jika tahun memenuhi syarat no 2 maka tahun merupakan tahun kabisat
+		4. Jika tahun tidak memenuhi syarat 2 maka hitung apakah tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+		5. jika tahun memenuhi syarat no 4 makan tahun adalah tahun kabisat
+		6. Jika tahun tidak memenuhi syarat no 2 dan 4 maka tahun bukan tahun kabisat
+   
+   B. Pseudocode
+	   SET tahun to any number
+	   
+	    IF tahun (   (tahun habis di bagi 4 AND tidak habis di bagi 100 ) 
+					OR
+					(tahun habis di bagi 4 AND habis di bagi 100 AND habis di bagi 400)  )
+		  DISPLAY tahun adalah tahun kabisat
+		  
+		ELSE
+		  DISPLAY tahun adalah bukan tahun kabisat
+		END IF
+	
+3. Foxie akan mencuci pakaiannya menggunakan mesin cuci.
+	Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan akan dimasukkan ke mesin cuci. 
+	Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci.
+
+	Bantulah Foxie untuk menghitung jumlah pakaian yang akan dimasukkan ke mesin cuci menggunakan algoritma & pseudocode perulangan!
+   
+   Jawab :
+   
+   A. Algoritma
+		1. tentukan banyak pakaian
+		2. jika banyak pakaian kurang dari 20 maka masukan pakaian ke mesin cuci
+		3. setelah mesin cuci berisi 20 pakaian, nyalakan mesin cuci
+   
+   B. Pseudocode
+	   SET pakaian dalam mesin cuci to 0
+	   
+		WHILE pakaian dalam mesin cuci < 20
+			ADD pakaian ke mesin cuci
+		END WHILE 
+		
+	   IF Pakaian = 20
+			DO nyalakan mesin cuci
+		END IF
+   
+4. Seorang guru akan memeriksa kuku siswa-siswinya yang sebanyak 40 orang dengan cara berkeliling kelas.
+	Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut,
+	jika tidak guru akan memuji siswa/siswi tersebut.
+
+	Buatlah algoritma & pseudocode untuk permasalahan diatas.
+	
+	Jawab
+	A. Algoritma
+		1. Jumlah siswa/siswi adalah 40
+		2. Guru memeriksa 1 per 1 kuku siswa/siswa-siswinya
+		3. jika kuku siswa/siswi panjang guru memberi hukuman
+		4. jika kuku siswa/siswi tidak panjang guru memberi pujian
+	
+	B. Pseudocode
+	
+		SET siswa to 40
+		
+		FOR 1 UNTIL 40
+			DO periksa kuku siswa
+				IF kuku siswa/siswi panjang
+					DO diberikan hukuman
+				ELSE
+					DO berikan pujian
+				END IF
+		END LOOP
+   
+   
+   
