@@ -1,6 +1,6 @@
-var tanggal = 33; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
-var bulan = 13; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
-var tahun = 1800; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
+var tanggal = 30; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
+var bulan = 4; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
+var tahun = 1980; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 if (tanggal < 32) {
     if (bulan < 13) {
