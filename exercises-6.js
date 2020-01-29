@@ -32,7 +32,7 @@ for (var i = 10; i > 0; i--) {
 console.log('\n')
 console.log('Jawaban No.3')
 
-n = 11 // n adalah 100
+n = 100 // n adalah 100
 for (var i = 0; i < n; i++) {
     if (i % 2 == 0) {
         console.log(i + 1 + ' Ganjil')
