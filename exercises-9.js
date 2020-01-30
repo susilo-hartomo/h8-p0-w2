@@ -1,4 +1,4 @@
-//FUNCTION
+//FUNCTION//
 
 // 1. Membuat Function Print
 function showOut() {
