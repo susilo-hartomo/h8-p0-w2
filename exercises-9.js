@@ -2,11 +2,11 @@
 
 // 1. Membuat Function Print
 function showOut() {
-    return console.log('Hello Function!')
+    return 'Hello Function!'
 }
 
 console.log('Jawaban Soal No 1')
-showOut()
+console.log(showOut())
 console.log('\n')
 
 // 2. Membuat fungsi perkalian
