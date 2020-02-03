@@ -7,7 +7,7 @@ function bandingkanAngka(angka1, angka2) {
     } else if (angka1 > angka2) {
         return false
     } else {
-        console.log(-1)
+        return -1
     }
 }
 
